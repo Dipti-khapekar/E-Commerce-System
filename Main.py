@@ -1,4 +1,4 @@
-from ECommerceSystem import ECommerceSystem:
+from ECommerce import ECommerceSystem
 
 echom = ECommerceSystem()
 
@@ -7,7 +7,7 @@ while True:
     print("1. Add Product")
     print("2. Display products")
     print("3. Search Product")
-    print("4.Add to Cart")
+    print("4. Add to Cart")
     print("5. View Cart")
     print("6. Exit")
 
@@ -27,6 +27,9 @@ while True:
 
     elif choice == "5":
         echom.view_product()
+
+    elif choice == "6":
+        print("Thank you!")
         break
 
     else:
