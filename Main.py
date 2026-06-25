@@ -3,7 +3,7 @@ from ECommerceSystem import ECommerceSystem:
 echom = ECommerceSystem()
 
 while True:
-    print("\n=====E-COOMERCE STSTEM =====")
+    print("\n=====E-COMMERCE SYTSTEM =====")
     print("1. Add Product")
     print("2. Display products")
     print("3. Search Product")
