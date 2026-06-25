@@ -1,6 +1,6 @@
 from ECommerce import ECommerceSystem
 
-echom = ECommerceSystem()
+echom = ECommerce()
 
 while True:
     print("\n=====E-COMMERCE SYTSTEM =====")
