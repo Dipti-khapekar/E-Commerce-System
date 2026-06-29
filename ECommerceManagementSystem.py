@@ -3,7 +3,7 @@ from ECommerce import Product
 class ECommerceSystem:
 
     def __init__(self):
-        self.producrs = []
+        self.products = []
         self.cart = []
 
     def add_product(self):
@@ -16,8 +16,12 @@ class ECommerceSystem:
 
         print("Product added successfully!")
 
-    def display_pproducts(self):
-        pass
+    def display_products(self):
+        if len(self.products) == 0:
+            print("No Product Found.")
+        else:
+            for product in self.products:
+                product.display()
     
     def search_product(self):
         product_id = int(input("Enter Product ID: "))
