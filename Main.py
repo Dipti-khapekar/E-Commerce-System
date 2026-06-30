@@ -27,7 +27,7 @@ while True:
         echom.add_to_cart()
 
     elif choice == "5":
-        echom.view_product()
+        echom.view_cart()
 
     elif choice == "6":
         print("Thank you!")
